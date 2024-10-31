@@ -39,7 +39,9 @@ h4 {
   font-style: normal;
 	color: #9B7D61;
 	padding-left: 100px;
-	padding-right: 100px
+	padding-right: 100px;
+	padding-bottom: 2px;
+	padding-top: 5px
 		}
 h5 {
 	font-family: "Playfair Display", serif;
@@ -47,8 +49,8 @@ h5 {
   font-weight: 150;
   font-style: normal;
 	color: #AD937C;
-	padding-left: 100px;
-	padding-right: 100px
+	padding-left: 125px;
+	padding-right: 100px;
 		}
 p {
 	font-family: "Playfair Display", serif;
@@ -62,6 +64,7 @@ p {
 a {
 	font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
+	text-decoration: none;
   font-weight: 200;
   font-style: normal;
 	color: #92ADA4;
@@ -87,7 +90,7 @@ header {
 img {
 	display: block;
 	margin-left: 100px;
-	margin-right: 100px
+	margin-right: 100px;
 }
 ol {
 	font-family: "Playfair Display", serif;
@@ -99,21 +102,46 @@ ol {
 	padding-right: 100px
 }
 .center {
-	display: inline-block;
+	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
 }
+#readabilityimage{
+	margin: auto;
+}
+figure{
+	margin: auto;
+}
+figcaption{
+	margin: auto;
+	text-align: center;
+	font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+	color: #AD937C;
+	padding: 15px;
+}
+
+#typoImage{
+	display: block;
+	margin: auto;
+	padding-bottom: 15px;
+}
+
 .button a {
 	background-color: #92ADA4;
 	color: #FED8A6;
-	padding-bottom: 10;
-	padding-top: 10;
-	padding-left: 20;
-	padding-right: 20
+	text-decoration: none;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px
 }
 .button a:hover {
-	background-color: #FED8A6;
-	color: #92ADA4
+	background-color: #DAA38F;
+	color: #FED8A6
 }
 .rightAlign {
 	float: right;
